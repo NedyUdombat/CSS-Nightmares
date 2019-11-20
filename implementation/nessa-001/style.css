@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding:  0;
+    background-color: #81C5D2;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+    background: url(../../../CSS-Nightmares/design\ &\ assets/001/assets/top-right-pen-draw.svg) left top no-repeat, 
+    url(../../../CSS-Nightmares/design\ &\ assets/001/assets/undraw_dev_focus_b9xo-1.svg) right top no-repeat,
+    url(../../../CSS-Nightmares/design\ &\ assets/001/assets/undraw_dev_productivity_umsq-1.svg) left bottom no-repeat, 
+    url(../../../CSS-Nightmares/design\ &\ assets/001/assets/bottom-right-pen-draw.svg) right bottom no-repeat;
+}
+
+
+
+
+#content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;;
+}
+
+#content #heading {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#content #tagline {
+    font-size: 0.7em;
+}
+
+button {
+    padding: 8px 35px;
+    margin-top: 15px;
+    border: 0;
+    border-radius: 5px;
+    background-color:#33E9ED;
+    color: #fff;
+    transition: all ease-in 0.3s;
+}
+
+button:hover {
+    background-color:rgb(27, 146, 148);
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
